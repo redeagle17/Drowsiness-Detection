@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # Loading the custom model 'best.pt'
-custom_model = YOLO("last.pt")
+custom_model = YOLO("custom_model/best.pt")
 
 cap = cv2.VideoCapture(0)
 while True:
